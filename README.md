@@ -1,9 +1,19 @@
 # Instagram-Video-Engagement-Ad-ROI-Pipeline-Analysis
-This project provides a comprehensive ETL (Extract, Transform, Load) pipeline to audit content performance across 150+ high-growth reels in the 2026 Instagram landscape.
-Here is your content properly structured and cleaned in **Markdown format** (ready for GitHub / Notion / README use):
 
----
 
+This project provides a comprehensive ETL (Extract, Transform, Load) pipeline to audit content performance across 150+ high-growth reels in the 2026 Instagram landscape:
+
+#  Detailed Documentation
+
+* **SQL Queries & Results:**
+  View raw logic and data snapshots
+  [https://www.notion.so/analysis/queries_and_results.sql](https://crawling-library-3bd.notion.site/SQL-Queries-And-Results-30fe2e0f0ee9809e9bf2d743b5fa0f3a?source=copy_link)
+
+* **Executive Findings Report:**
+  High-level business summary
+  [https://www.notion.so/analysis/findings_report.md](https://crawling-library-3bd.notion.site/Executive-Report-Instagram-Engagement-30fe2e0f0ee9800aacfce6a83bee0bc3)
+
+  
 ## Executive Summary
 
 This project delivers a comprehensive **ETL (Extract, Transform, Load) pipeline** to audit content performance across 150+ high-growth Instagram Reels in the 2026 landscape.
@@ -16,17 +26,17 @@ By leveraging **Python-based scraping** and **SQL-driven business intelligence**
 
 ---
 
-# 🔍 Key Project Features
+#  Key Project Features
 
-### 🚀 Automated Data Extraction
+### Automated Data Extraction
 
 Engineered a custom Python scraper to pull engagement metrics while maintaining 2026 security compliance.
 
-### 🔐 Privacy-First Architecture
+### Privacy-First Architecture
 
 Implemented a data anonymization script to protect creator identities using unique `User_ID` mapping.
 
-### 🧮 Advanced SQL Analysis
+### Advanced SQL Analysis
 
 Built a relational database (SQLite) to calculate complex metrics like:
 
@@ -34,13 +44,13 @@ Built a relational database (SQLite) to calculate complex metrics like:
 * **Relative ROI**
 * Viral Outlier Detection
 
-### 📊 Console-Based Visualization
+### Console-Based Visualization
 
 Developed custom SQL functions to generate “Sparkline” bar charts directly in the terminal for rapid insight verification.
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```
 ├── analysis/
@@ -58,9 +68,9 @@ Developed custom SQL functions to generate “Sparkline” bar charts directly i
 
 ---
 
-# 📈 Core Findings & Insights
+# 1. Core Findings & Insights
 
-## 1️⃣ Peak Engagement Windows (IST)
+##  Peak Engagement Windows (IST)
 
 The analysis identified two distinct traffic surges:
 
@@ -72,7 +82,7 @@ While midnight can produce viral spikes, **evening hours (18:00–20:00 IST)** a
 
 ---
 
-## 2️⃣ Sponsored Content Audit (ROI)
+## 2. Sponsored Content Audit (ROI)
 
 The study revealed an **“Ad-Aura Effect”** in certain creators (e.g., `User_ID_2`), where sponsored content outperformed organic averages by:
 
@@ -82,7 +92,7 @@ However, some accounts showed **negative ROI**, indicating audience resistance t
 
 ---
 
-# 🛠️ Tech Stack & Tools
+# Tech Stack & Tools
 
 * **Language:** Python 3.x
 
@@ -104,22 +114,22 @@ The backbone of this project is a series of optimized SQL queries designed to ex
 
 ---
 
-## 📌 Database Schema
+## Database Schema
 
 The `video_trends` table includes:
 
-### ⏳ Temporal Tracking
+### Temporal Tracking
 
 * `Time` (IST)
 * `Date`
 
-### ❤️ Engagement Metrics
+### Engagement Metrics
 
 * `Views`
 * `Likes`
 * `Comments`
 
-### 🏷️ Content Metadata
+### Content Metadata
 
 * `Account`
 * `Caption`
@@ -127,11 +137,11 @@ The `video_trends` table includes:
 
 ---
 
-# 🧠 Advanced Query Highlights
+# Advanced Query Highlights
 
 ---
 
-## 1️⃣ Relational ROI Modeling (Joins & Arithmetic)
+## 1. Relational ROI Modeling (Joins & Arithmetic)
 
 Instead of simple averages, this query joins the main table with an aggregated sub-dataset to calculate the **Relative ROI** of sponsored content against each creator’s organic baseline.
 
@@ -150,7 +160,7 @@ WHERE v.Caption LIKE '%#ad%';
 
 ---
 
-## 2️⃣ Performance Indexing (Subqueries)
+## 2. Performance Indexing (Subqueries)
 
 This window-style subquery creates a performance multiplier for every post to identify viral outliers.
 
@@ -166,7 +176,7 @@ WHERE Perf_Index > 200;
 
 ---
 
-## 3️⃣ Temporal Data Transformation (`strftime`)
+## 3. Temporal Data Transformation (`strftime`)
 
 SQLite's date-time functions were used to:
 
@@ -176,7 +186,7 @@ SQLite's date-time functions were used to:
 
 ---
 
-# 🎯 Key Technical Skills Demonstrated
+#  Key Technical Skills Demonstrated
 
 * **Complex Aggregations:** Advanced `GROUP BY` and `HAVING`
 * **Data Cleaning:** Filtering noise using `WHERE Views > 0`
@@ -186,20 +196,11 @@ SQLite's date-time functions were used to:
 
 ---
 
-# 🙏 Acknowledgments
+# Acknowledgments
 
 Developed in collaboration with **Google Gemini 3 Flash** to optimize ETL logic, ensure platform compliance, and refine data visualization strategies.
 
 ---
 
-# 📚 Detailed Documentation
-
-* **SQL Queries & Results:**
-  View raw logic and data snapshots
-  [https://www.notion.so/analysis/queries_and_results.sql](https://crawling-library-3bd.notion.site/SQL-Queries-And-Results-30fe2e0f0ee9809e9bf2d743b5fa0f3a?source=copy_link)
-
-* **Executive Findings Report:**
-  High-level business summary
-  [https://www.notion.so/analysis/findings_report.md](https://crawling-library-3bd.notion.site/Executive-Report-Instagram-Engagement-30fe2e0f0ee9800aacfce6a83bee0bc3)
 
 
