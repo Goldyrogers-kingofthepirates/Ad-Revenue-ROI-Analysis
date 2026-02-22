@@ -202,11 +202,4 @@ Developed in collaboration with **Google Gemini 3 Flash** to optimize ETL logic,
   High-level business summary
   [https://www.notion.so/analysis/findings_report.md](https://crawling-library-3bd.notion.site/Executive-Report-Instagram-Engagement-30fe2e0f0ee9800aacfce6a83bee0bc3)
 
----
 
-If you'd like, I can also:
-
-* 🔥 Optimize this for a **GitHub portfolio (more recruiter-focused)**
-* 🎯 Make a **resume-ready project summary (3–5 bullet points)**
-* 📈 Convert this into a **LinkedIn post format**
-* 🧠 Improve it for CAT/MBA interview storytelling**
