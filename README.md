@@ -196,11 +196,11 @@ Developed in collaboration with **Google Gemini 3 Flash** to optimize ETL logic,
 
 * **SQL Queries & Results:**
   View raw logic and data snapshots
-  [https://www.notion.so/analysis/queries_and_results.sql](https://www.notion.so/analysis/queries_and_results.sql)
+  [https://www.notion.so/analysis/queries_and_results.sql](https://crawling-library-3bd.notion.site/SQL-Queries-And-Results-30fe2e0f0ee9809e9bf2d743b5fa0f3a?source=copy_link)
 
 * **Executive Findings Report:**
   High-level business summary
-  [https://www.notion.so/analysis/findings_report.md](https://www.notion.so/analysis/findings_report.md)
+  [https://www.notion.so/analysis/findings_report.md](https://crawling-library-3bd.notion.site/Executive-Report-Instagram-Engagement-30fe2e0f0ee9800aacfce6a83bee0bc3)
 
 ---
 
