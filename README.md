@@ -194,13 +194,7 @@ SQLite's date-time functions were used to:
 * **Performance Modeling:** Relative baseline comparisons
 * **Console Visualization:** Using `PRINTF` and `substr` to generate SQL-based bar charts
 
----
 
-# Acknowledgments
-
-Developed in collaboration with **Google Gemini 3 Flash** to optimize ETL logic, ensure platform compliance, and refine data visualization strategies.
-
----
 
 
 
